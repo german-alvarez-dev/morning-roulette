@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Al que madruga... ruleta! | by Ironhack</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/ironhack-logo-100.png">
+</head>
+
+<body>
+
+    <div id="loading">
+        <span class="text">cargando!</span>
+        <div class="loader"></div>
+    </div>
+
+    <div id="content">
+
+        <header class="header container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h1>Ruleta mañanera</h1>
+                    <p>Al que madruga... ruleta! | by Ironhack <svg height="15px" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 -0.5831052169363993 60 64.5851052169364">
+                            <path
+                                d="M28.109 63.497c.347.196.657.29.949.362.403.102.767.14 1.115.141.75.002 1.45-.148 2.478-.738l24.691-13.457C59.192 48.744 60 47.634 60 45.511V18.133c0-2.123-1.297-3.072-3.158-4.133L32.032.497a3.89 3.89 0 0 0-.591-.293A3.277 3.277 0 0 0 30.256 0c-.624 0-1.241.003-2.36.645L3.67 13.704C1.82 14.764 0 16.01 0 18.134L.05 45.63c0 2.123 1.547 3.502 3.407 4.564L28.11 63.497z"
+                                fill="#32c3ff" />
+                        </svg></p>
+                    <hr>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="roulette-container">
+            <div class="roulette">
+                <div class="spinner"></div>
+                <div class="shadow"></div>
+                <div class="markers">
+                    <div class="triangle"></div>
+                </div>
+                <div class="button">
+                    <span style="letter-spacing: 2px">¡GIRA!</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
+    <script src="js/snow.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/ruleta.js"></script>
+
+</body>
+
+</html>
